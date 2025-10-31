@@ -1,0 +1,10 @@
+[package]
+name = "tot"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tot_compiliatsialau = { path = "../tot_compiliatsialau_proc_macro" }
+
+[lib]
+proc-macro = true
